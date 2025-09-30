@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block title %}{{ tema.titulo }} - {{ curso.titulo }}{% endblock %}
+
+
+{% block content %}
+<h2>{{ tema.titulo }}</h2>
+<p class="contenido">{{ tema.contenido }}</p>
+
+
+<a class="boton" href="{{ url_for('curso', slug=curso.slug) }}">Volver al curso</a>
+{% endblock %}

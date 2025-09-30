@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}Plataforma Estudiantil I.E. 2053{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<header class="site-header">
+<div class="contenedor">
+<h1 class="logo">Plataforma Estudiantil I.E. 2053</h1>
+<nav>
+<a href="{{ url_for('home') }}">Inicio</a>
+</nav>
+</div>
+</header>
+
+
+<main class="contenedor">
+{% block content %}{% endblock %}
+</main>
+
+
+<footer class="site-footer">
+<div class="contenedor">Hecho por gabrielito alias: el tio</div>
+</footer>
+
+
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

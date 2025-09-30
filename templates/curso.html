@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block title %}{{ curso.titulo }} - Plataforma Estudiantil{% endblock %}
+
+
+{% block content %}
+<h2>{{ curso.titulo }}</h2>
+<p>{{ curso.descripcion }}</p>
+
+
+<ul class="lista-temas">
+{% for t in curso.temas %}
+<li>
+<a href="{{ url_for('tema', curso_slug=curso.slug, tema_slug=t.slug) }}">{{ t.titulo }}</a>
+</li>
+{% endfor %}
+</ul>
+
+
+<a class="boton" href="{{ url_for('home') }}">Volver</a>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Inicio - Plataforma Estudiantil I.E. 2053{% endblock %}
+
+
+{% block content %}
+<section class="hero">
+<h2>Elige un curso</h2>
+<input id="buscador" placeholder="Busca un tema o curso..." />
+<div id="resultados" class="resultados"></div>
+
+
+<div class="grid-cursos">
+{% for c in cursos %}
+<article class="card">
+<h3>{{ c.titulo }}</h3>
+<p>{{ c.descripcion }}</p>
+<a class="boton" href="{{ url_for('curso', slug=c.slug) }}">Ver temas</a>
+</article>
+{% endfor %}
+</div>
+</section>
+{% endblock %}

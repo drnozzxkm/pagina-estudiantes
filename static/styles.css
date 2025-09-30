@@ -1,0 +1,112 @@
+:root {
+  --primario: #2b6cb0;
+  --fondo: #f7fafc;
+  --texto: #1a202c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+  margin: 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.site-header .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 0;
+  padding: 12px 0;
+}
+
+.nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: var(--texto);
+}
+
+.hero {
+  padding: 24px 0;
+}
+
+.grid-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.06);
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: var(--primario);
+  color: white;
+}
+
+.lista-temas {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-temas li {
+  background: white;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.contenido {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.resultados {
+  margin-top: 12px;
+}
+
+.contenedor {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header {
+  background: var(--primario);
+  color: white;
+  padding: 12px 0;
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  color: #667085;
+  font-size: 14px;
+}
+
+input#buscador {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
