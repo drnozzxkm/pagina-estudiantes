@@ -13,17 +13,17 @@
             {
               "slug": "explicacion-general",
               "titulo": "Explicación general",
-              "contenido": "Aquí va la explicación general de áreas."
+              "contenido": "Imagina que tienes una mesa, una cancha de fulbito, o incluso la pantalla de tu celular. Todas esas superficies tienen algo en común: ocupan un espacio plano.Ese “espacio plano” que abarcan es lo que llamamos área. Es como decir: “¿cuánto terreno está cubriendo esto?”.\nEl área no se fija en los bordes, sino en todo lo que hay dentro de ellos. Si el perímetro es como el marco de un cuadro, el área es la pintura que llena ese cuadro. \nPor ejemplo, piensa en el piso de tu cuarto. Si le pones alfombra, necesitas saber cuánta alfombra cubrirá toda la superficie. Esa cantidad de alfombra corresponde al área de tu cuarto. No importa si es cuadrado, rectangular o medio raro; el área es todo el espacio del suelo que usas. Otro ejemplo seria que en una cancha de fútbol, cuando dicen “la cancha mide 100 por 60 metros”, en realidad nos están dando una idea de su área: es todo el espacio donde los jugadores corren, donde rebota la pelota, donde sucede el partido. No es solo el borde blanco pintado, sino todo lo que hay dentro de esas líneas. \nEntonces el área es simplemente una medida que nos dice qué tanto espacio ocupa una superficie en el plano. No se trata de cuán largo es un borde, sino de todo lo que hay dentro. Podemos medirlo con diferentes unidades (como metros cuadrados, centímetros cuadrados, etc.), pero en el fondo es siempre la misma idea: contar el espacio que algo cubre en dos dimensiones."
             },
             {
               "slug": "area-cuadrado",
               "titulo": "Área del cuadrado",
-              "contenido": "Fórmula y ejemplos del área del cuadrado."
+              "contenido": "El cuadrado es una figura con cuatro lados iguales y esquinas derechas, como una casilla de ajedrez, un sticker o una baldosa del piso. Cuando hablamos de su área, nos referimos al espacio que queda dentro de esos cuatro lados, todo lo que “rellena” la figura, no solo el contorno que la rodea.\nLa fórmula para calcular el área de un cuadrado es muy sencilla porque todos sus lados miden lo mismo, así que basta con multiplicar un lado por ese mismo lado, es decir: lado × lado.\nPor ejemplo, si tienes un cuadrado que representa un sticker y cada lado mide 5 centímetros, entonces el área sería 5 × 5, lo que da 25. Eso significa que el sticker ocupa un espacio de 25 centímetros cuadrados en total."
             },
             {
               "slug": "area-triangulo",
               "titulo": "Área del triángulo",
-              "contenido": "Fórmula y ejemplos del área del triángulo."
+              "contenido": "El triángulo es una figura plana que tiene tres lados y tres vértices, puede ser equilátero (todos sus lados iguales), isósceles (dos lados iguales) o escaleno (todos distintos). Cuando hablamos de su área, nos referimos al espacio que queda encerrado dentro de esos tres lados, como si fuera el “relleno” de una pizza cortada en rebanadas: cada rebanada es un triángulo y lo que ocupa dentro es su área.\nLa fórmula para calcular el área de un triángulo es (base × altura) ÷ 2, lo que quiere decir que miramos uno de sus lados como base, trazamos una línea imaginaria que va desde el vértice opuesto hasta esa base (la altura), multiplicamos esas dos medidas y al final lo dividimos en dos porque un triángulo siempre ocupa la mitad del espacio que cubriría un rectángulo de la misma base y altura.\nPor ejemplo, si tienes un triángulo con una base de 8 metros y una altura de 5 metros, su área sería (8 × 5) ÷ 2, lo que da 20. Eso significa que el triángulo ocupa un espacio de 20 metros cuadrados."
             }
           ]
         },
