@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ opcion.titulo }}</title>
+</head>
+<body>
+    <h1>{{ curso.titulo }} - {{ tema.titulo }} - {{ opcion.titulo }}</h1>
+    <p>{{ opcion.contenido }}</p>
+    <a href="{{ url_for('tema', curso_slug=curso.slug, tema_slug=tema.slug) }}">Volver al tema</a>
+</body>
+</html>

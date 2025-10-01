@@ -6,14 +6,36 @@
       "descripcion": "Álgebra, Geometría, Cálculo y más.",
       "temas": [
         {
-          "slug": "algebra-basica",
-          "titulo": "Álgebra básica",
-          "contenido": "Álgebra básica: operaciones con expresiones, ecuaciones lineales y factorización. Ejemplos paso a paso y ejercicios resueltos."
+          "slug": "areas-basicas",
+          "titulo": "Áreas básicas",
+          "contenido": "Explicación general sobre áreas de figuras geométricas.",
+          "opciones": [
+            {
+              "slug": "explicacion-general",
+              "titulo": "Explicación general",
+              "contenido": "Aquí va la explicación general de áreas."
+            },
+            {
+              "slug": "area-cuadrado",
+              "titulo": "Área del cuadrado",
+              "contenido": "Fórmula y ejemplos del área del cuadrado."
+            },
+            {
+              "slug": "area-triangulo",
+              "titulo": "Área del triángulo",
+              "contenido": "Fórmula y ejemplos del área del triángulo."
+            }
+          ]
         },
         {
           "slug": "geometria-planar",
           "titulo": "Geometría planar",
           "contenido": "Estudio de polígonos, áreas, perímetros y teoremas fundamentales (como Pitágoras)."
+        },
+        {
+          "slug": "calculo-diferencial",
+          "titulo": "Cálculo diferencial",
+          "contenido": "Conceptos de límites, derivadas y aplicaciones básicas del cálculo."
         }
       ]
     },
