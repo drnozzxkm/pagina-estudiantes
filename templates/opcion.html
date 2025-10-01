@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ opcion.titulo }}</title>
-</head>
-<body>
-    <h1>{{ curso.titulo }} - {{ tema.titulo }} - {{ opcion.titulo }}</h1>
+{% extends 'base.html' %}
+
+{% block title %}{{ opcion.titulo }} - {{ tema.titulo }} - {{ curso.titulo }}{% endblock %}
+
+{% block content %}
+  <h2>{{ opcion.titulo }}</h2>
+  
+  <div class="contenido">
     <p>{{ opcion.contenido }}</p>
-    <a href="{{ url_for('tema', curso_slug=curso.slug, tema_slug=tema.slug) }}">Volver al tema</a>
-</body>
-</html>
+  </div>
+
+  <a class="boton" href="{{ url_for('tema', curso_slug=curso.slug, tema_slug=tema.slug) }}">
+    Volver al tema
+  </a>
+{% endblock %}
