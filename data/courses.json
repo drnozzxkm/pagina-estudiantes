@@ -1,38 +1,67 @@
 {
-"cursos": [
-{
-"slug": "matematicas",
-"titulo": "Matemáticas",
-"descripcion": "Álgebra, Geometría, Cálculo y más.",
-"temas": [
-{
-"slug": "algebra-basica",
-"titulo": "Álgebra básica",
-"contenido": "Álgebra básica: operaciones con expresiones, ecuaciones lineales y factorización. Ejemplos paso a paso y ejercicios resueltos."
-},
-{
-"slug": "geometria-planar",
-"titulo": "Geometría planar",
-"contenido": "Estudio de polígonos, áreas, perímetros y teoremas fundamentales (como Pitágoras)."
-}
-]
-},
-{
-"slug": "comunicacion",
-"titulo": "Comunicación",
-"descripcion": "Redacción, comprensión lectora y exposición oral.",
-"temas": [
-{
-"slug": "redaccion-ensayos",
-"titulo": "Redacción de ensayos",
-"contenido": "Estructura de un ensayo: introducción, desarrollo y conclusión; consejos para claridad y coherencia."
-},
-{
-"slug": "comprension-lectora",
-"titulo": "Comprensión lectora",
-"contenido": "Técnicas para identificar ideas principales, inferencias y vocabulario contextual."
-}
-]
-}
-]
+  "cursos": [
+    {
+      "slug": "matematicas",
+      "titulo": "Matemáticas",
+      "descripcion": "Álgebra, Geometría, Cálculo y más.",
+      "temas": [
+        {
+          "slug": "algebra-basica",
+          "titulo": "Álgebra básica",
+          "contenido": "Álgebra básica: operaciones con expresiones, ecuaciones lineales y factorización. Ejemplos paso a paso y ejercicios resueltos."
+        },
+        {
+          "slug": "geometria-planar",
+          "titulo": "Geometría planar",
+          "contenido": "Estudio de polígonos, áreas, perímetros y teoremas fundamentales (como Pitágoras)."
+        }
+      ]
+    },
+    {
+      "slug": "comunicacion",
+      "titulo": "Comunicación",
+      "descripcion": "Redacción, comprensión lectora y exposición oral.",
+      "temas": [
+        {
+          "slug": "redaccion-ensayos",
+          "titulo": "Redacción de ensayos",
+          "contenido": "Estructura de un ensayo: introducción, desarrollo y conclusión; consejos para claridad y coherencia."
+        },
+        {
+          "slug": "comprension-lectora",
+          "titulo": "Comprensión lectora",
+          "contenido": "Técnicas para identificar ideas principales, inferencias y vocabulario contextual."
+        }
+      ]
+    },
+    {
+      "slug": "dpcc",
+      "titulo": "DPCC",
+      "descripcion": "Desarrollo de Proyectos de Ciencia y Computación.",
+      "temas": [
+        {
+          "slug": "tema1",
+          "titulo": "Tema 1",
+          "contenido": "Explicación del Tema 1."
+        }
+      ]
+    },
+    {
+      "slug": "ccss",
+      "titulo": "CCSS",
+      "descripcion": "Ciencias Sociales: historia, geografía y cultura.",
+      "temas": [
+        {
+          "slug": "historia",
+          "titulo": "Historia",
+          "contenido": "Resúmenes de historia, hechos importantes y análisis de eventos clave."
+        },
+        {
+          "slug": "geografia",
+          "titulo": "Geografía",
+          "contenido": "Estudio de continentes, países, mapas y fenómenos naturales."
+        }
+      ]
+    }
+  ]
 }
