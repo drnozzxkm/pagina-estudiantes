@@ -17,16 +17,19 @@ body {
   background: var(--fondo);
   color: var(--texto);
   line-height: 1.6;
-  min-height: 100vh;
+  min-height: 100vh; /* página completa */
+  margin: 0;
 }
 
 /* ---- CONTENEDOR ---- */
 .contenedor {
   width: 100%;
-  max-width: 1200px;   /* aumenté de 980px a 1200px */
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;     /* padding lateral para que no choque con los bordes */
+  padding: 20px;
 }
+
+
 
 /* ---- HEADER ---- */
 .site-header {
@@ -66,9 +69,13 @@ body {
 
 /* ---- HERO ---- */
 .hero {
-  padding: 40px 0;
-  text-align: center;
+  padding: 80px 0; /* antes 24px, ahora más grande */
+  min-height: 60vh; /* ocupa un 60% de la altura de la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .hero h1 {
   font-size: 32px;
